@@ -1,0 +1,71 @@
+.navbar{
+    padding: 0 10px 0 10px;
+    top:40px;
+    width: 100%;
+    background-image: linear-gradient(to right grey, transparent) ;
+}
+.togglebtn{
+    display: none;
+}
+hr{
+    display: none;
+}
+.navbar img{
+    width: max-content;
+    height: 50px;
+}
+@media (max-width: 1000px) {
+    .nav{
+        display: block;
+        z-index: 1;
+        background-color: black;
+        float: left;
+        position: absolute;
+        top: 50px;
+        border-radius: 12px;
+        width: 98%;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    hr{
+        display: block;
+        height: 0px;
+        color: white;   
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+
+    }
+  
+    .nav a{
+        display: flex;
+        justify-content: center;    
+    }
+    .togglebtn{
+        display: block;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .nav{
+        width: 97.5%;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .nav{
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .nav{
+        width: 93.5%;
+    }
+    
+}
