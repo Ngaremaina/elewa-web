@@ -77,3 +77,29 @@
 .container-fluid .row{
     padding: 5rem 8rem 5rem 8rem;
 }
+a{
+    text-decoration: none;  
+}
+button{
+    border-radius: 33rem;
+    padding: 5px 5px 5px 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.circle{
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+i{
+    color: black;
+}
