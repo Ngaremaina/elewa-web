@@ -6,7 +6,7 @@ import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {path:'invest', component:InvestComponent},
-  {path:'social',component:SocialComponent},
+  {path:'',component:SocialComponent},
   {path:'about', component:AboutComponent}
 ];
 
