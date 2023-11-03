@@ -3,8 +3,7 @@
     <div class="togglebtn">
         <i class="fa fa-bars" aria-hidden="true" (click)="toggleMenu()"></i>
     </div>   
-    <div *ngIf="isMenuOpen" class="nav justify-content-end">
-        
+    <div class="nav justify-content-end" [class.open]="menuopen">
         <a routerLink="/about" class="nav-link text-white">About Us</a>
         <a routerLink="/social" class="nav-link text-white">Social Impact</a>
         <a routerLink="/invest" class="nav-link text-white">Invest</a>

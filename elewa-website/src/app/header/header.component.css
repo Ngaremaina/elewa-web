@@ -13,8 +13,14 @@
     width: max-content;
     height: 50px;
 }
+.nav-link{
+    color: aqua;
+}
 @media (max-width: 1000px) {
     .nav{
+        display: none;
+    }
+    .nav.open{
         display: block;
         z-index: 1;
         background-color: black;
