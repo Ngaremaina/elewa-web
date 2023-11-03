@@ -1,15 +1,14 @@
 .navbar{
-    padding: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
     top:40px;
     width: 100%;
+    border-bottom: 1px solid gray;
     background-image: linear-gradient(to right grey, transparent) ;
 }
 .togglebtn{
     display: none;
 }
-hr{
-    display: none;
-}
+
 .navbar img{
     width: max-content;
     height: 50px;
@@ -22,7 +21,6 @@ hr{
         float: left;
         position: absolute;
         top: 50px;
-        border-radius: 12px;
         width: 98%;
         padding: 10px;
         margin: 0;
@@ -41,7 +39,8 @@ hr{
   
     .nav a{
         display: flex;
-        justify-content: center;    
+        justify-content: center;   
+        border-bottom: 1px solid white;    
     }
     .togglebtn{
         display: block;
@@ -58,14 +57,14 @@ hr{
 
 @media (max-width: 425px) {
     .nav{
-        width: 95%;
+        max-width: 95.5%;
     }
     
 }
 
 @media (max-width: 320px) {
     .nav{
-        width: 93.5%;
+        width: 94%;
     }
     
 }
