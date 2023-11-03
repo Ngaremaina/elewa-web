@@ -1,0 +1,152 @@
+.social-line{
+    position: relative;
+    z-index: -1;
+    top:0;
+}
+.social-line img{
+    width: 100%;
+}
+
+.text h6{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.social-line p{
+    font-weight: 400!important;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    margin: 0 0 0 50px;
+    max-width: max(70%, 32rem);
+}
+
+.stat{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 30px 0 30px 0;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    justify-items: center;
+    width: 80%;
+    padding: 10px 0 0 0;    
+}
+.image-text{
+    background-color: rgb(236, 236, 236);
+}
+.stats div p{
+    font-size: 2rem;
+}
+
+.stats div h1{
+    text-align: center;
+    font-weight: 200;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 100px 50px 100px 50px;
+}
+
+.col-6{
+    padding: 0 70px 0 0;
+}
+
+
+.img-fluid{
+    border-radius: 20px;
+    width: 45vw;
+}
+
+.text-image, .knowledge{
+    background-color: black;
+}
+
+.container-fluid .row{
+    padding: 0 8rem 0 8rem;
+}
+
+
+.text-image .row .col-6 h6{
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+}
+
+.text-image .row .col-6 p{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0 0 3rem 0;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.partners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.partners img{
+    width: fit-content;
+    height: 60px;
+}
+
+.partners .pic{
+    padding: 10px;
+    animation: infinite;
+}
+
+.call p{
+    display: flex;
+    justify-content: center;
+    transition-duration: 3s;
+    font-size: 2.8rem;
+}
+
+
+@media (max-width: 600px) {
+    .text-image .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .img-fluid{
+        margin: 2.5rem 0 2.5rem 0;
+      
+    }
+    
+}
+
+.join:hover{
+    text-decoration: underline;
+    
+}
+.join{
+    font-weight: bold;
+}
+
+/* .image-pic{
+    width: ;
+
+} */
+.image{
+    width: 100%;
+    height: 100%;
+}
