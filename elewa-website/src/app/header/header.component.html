@@ -1,8 +1,15 @@
+<!-- Adding the navigation header section -->
 <nav class="navbar position-absolute">
-    <img src="https://res.cloudinary.com/ddei3mzex/image/upload/v1698922465/Logo_White_arvoyx_h9kx9y.svg"/>
+
+    <!-- Adding the Elewa website logo -->
+    <a routerLink="/"><img src="https://res.cloudinary.com/ddei3mzex/image/upload/v1698922465/Logo_White_arvoyx_h9kx9y.svg"/></a>
+
+    <!-- Adding the menu icon  -->
     <div class="togglebtn">
         <i class="fa fa-bars text-white" aria-hidden="true" (click)="toggleMenu()"></i>
-    </div>   
+    </div> 
+    
+    <!-- Adding the menu items -->
     <div class="nav justify-content-end" [class.open]="menuopen">
         <a routerLink="/about" class="nav-link text-white">About Us</a>
         <a routerLink="/" class="nav-link text-white">Social Impact</a>
